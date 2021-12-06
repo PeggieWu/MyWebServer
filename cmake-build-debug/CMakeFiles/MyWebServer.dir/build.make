@@ -105,11 +105,53 @@ CMakeFiles/MyWebServer.dir/config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyWebServer.dir/config.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/CLionProjects/MyWebServer/config.cpp -o CMakeFiles/MyWebServer.dir/config.cpp.s
 
+CMakeFiles/MyWebServer.dir/timer/lst_timer.cpp.o: CMakeFiles/MyWebServer.dir/flags.make
+CMakeFiles/MyWebServer.dir/timer/lst_timer.cpp.o: ../timer/lst_timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/CLionProjects/MyWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyWebServer.dir/timer/lst_timer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyWebServer.dir/timer/lst_timer.cpp.o -c /home/ubuntu/CLionProjects/MyWebServer/timer/lst_timer.cpp
+
+CMakeFiles/MyWebServer.dir/timer/lst_timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyWebServer.dir/timer/lst_timer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/CLionProjects/MyWebServer/timer/lst_timer.cpp > CMakeFiles/MyWebServer.dir/timer/lst_timer.cpp.i
+
+CMakeFiles/MyWebServer.dir/timer/lst_timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyWebServer.dir/timer/lst_timer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/CLionProjects/MyWebServer/timer/lst_timer.cpp -o CMakeFiles/MyWebServer.dir/timer/lst_timer.cpp.s
+
+CMakeFiles/MyWebServer.dir/http/http_conn.cpp.o: CMakeFiles/MyWebServer.dir/flags.make
+CMakeFiles/MyWebServer.dir/http/http_conn.cpp.o: ../http/http_conn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/CLionProjects/MyWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyWebServer.dir/http/http_conn.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyWebServer.dir/http/http_conn.cpp.o -c /home/ubuntu/CLionProjects/MyWebServer/http/http_conn.cpp
+
+CMakeFiles/MyWebServer.dir/http/http_conn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyWebServer.dir/http/http_conn.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/CLionProjects/MyWebServer/http/http_conn.cpp > CMakeFiles/MyWebServer.dir/http/http_conn.cpp.i
+
+CMakeFiles/MyWebServer.dir/http/http_conn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyWebServer.dir/http/http_conn.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/CLionProjects/MyWebServer/http/http_conn.cpp -o CMakeFiles/MyWebServer.dir/http/http_conn.cpp.s
+
+CMakeFiles/MyWebServer.dir/log/log.cpp.o: CMakeFiles/MyWebServer.dir/flags.make
+CMakeFiles/MyWebServer.dir/log/log.cpp.o: ../log/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/CLionProjects/MyWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyWebServer.dir/log/log.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyWebServer.dir/log/log.cpp.o -c /home/ubuntu/CLionProjects/MyWebServer/log/log.cpp
+
+CMakeFiles/MyWebServer.dir/log/log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyWebServer.dir/log/log.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/CLionProjects/MyWebServer/log/log.cpp > CMakeFiles/MyWebServer.dir/log/log.cpp.i
+
+CMakeFiles/MyWebServer.dir/log/log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyWebServer.dir/log/log.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/CLionProjects/MyWebServer/log/log.cpp -o CMakeFiles/MyWebServer.dir/log/log.cpp.s
+
 # Object files for target MyWebServer
 MyWebServer_OBJECTS = \
 "CMakeFiles/MyWebServer.dir/main.cpp.o" \
 "CMakeFiles/MyWebServer.dir/webserver.cpp.o" \
-"CMakeFiles/MyWebServer.dir/config.cpp.o"
+"CMakeFiles/MyWebServer.dir/config.cpp.o" \
+"CMakeFiles/MyWebServer.dir/timer/lst_timer.cpp.o" \
+"CMakeFiles/MyWebServer.dir/http/http_conn.cpp.o" \
+"CMakeFiles/MyWebServer.dir/log/log.cpp.o"
 
 # External object files for target MyWebServer
 MyWebServer_EXTERNAL_OBJECTS =
@@ -117,9 +159,12 @@ MyWebServer_EXTERNAL_OBJECTS =
 MyWebServer: CMakeFiles/MyWebServer.dir/main.cpp.o
 MyWebServer: CMakeFiles/MyWebServer.dir/webserver.cpp.o
 MyWebServer: CMakeFiles/MyWebServer.dir/config.cpp.o
+MyWebServer: CMakeFiles/MyWebServer.dir/timer/lst_timer.cpp.o
+MyWebServer: CMakeFiles/MyWebServer.dir/http/http_conn.cpp.o
+MyWebServer: CMakeFiles/MyWebServer.dir/log/log.cpp.o
 MyWebServer: CMakeFiles/MyWebServer.dir/build.make
 MyWebServer: CMakeFiles/MyWebServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/CLionProjects/MyWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MyWebServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/CLionProjects/MyWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable MyWebServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyWebServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

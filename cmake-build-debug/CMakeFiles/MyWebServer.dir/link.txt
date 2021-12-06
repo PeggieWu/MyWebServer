@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/MyWebServer.dir/main.cpp.o CMakeFiles/MyWebServer.dir/webserver.cpp.o CMakeFiles/MyWebServer.dir/config.cpp.o -o MyWebServer 
+/usr/bin/c++ -g CMakeFiles/MyWebServer.dir/main.cpp.o CMakeFiles/MyWebServer.dir/webserver.cpp.o CMakeFiles/MyWebServer.dir/config.cpp.o CMakeFiles/MyWebServer.dir/timer/lst_timer.cpp.o CMakeFiles/MyWebServer.dir/http/http_conn.cpp.o CMakeFiles/MyWebServer.dir/log/log.cpp.o -o MyWebServer 

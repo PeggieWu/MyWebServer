@@ -9,7 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ubuntu/CLionProjects/MyWebServer/config.cpp" "/home/ubuntu/CLionProjects/MyWebServer/cmake-build-debug/CMakeFiles/MyWebServer.dir/config.cpp.o"
+  "/home/ubuntu/CLionProjects/MyWebServer/http/http_conn.cpp" "/home/ubuntu/CLionProjects/MyWebServer/cmake-build-debug/CMakeFiles/MyWebServer.dir/http/http_conn.cpp.o"
+  "/home/ubuntu/CLionProjects/MyWebServer/log/log.cpp" "/home/ubuntu/CLionProjects/MyWebServer/cmake-build-debug/CMakeFiles/MyWebServer.dir/log/log.cpp.o"
   "/home/ubuntu/CLionProjects/MyWebServer/main.cpp" "/home/ubuntu/CLionProjects/MyWebServer/cmake-build-debug/CMakeFiles/MyWebServer.dir/main.cpp.o"
+  "/home/ubuntu/CLionProjects/MyWebServer/timer/lst_timer.cpp" "/home/ubuntu/CLionProjects/MyWebServer/cmake-build-debug/CMakeFiles/MyWebServer.dir/timer/lst_timer.cpp.o"
   "/home/ubuntu/CLionProjects/MyWebServer/webserver.cpp" "/home/ubuntu/CLionProjects/MyWebServer/cmake-build-debug/CMakeFiles/MyWebServer.dir/webserver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -88,11 +88,13 @@ public:
     {
         pthread_cond_destroy(&m_cond);
     }
+    //等待资源，被阻塞在该条件变量的队列上，阻塞返回true,没阻塞返回false
     bool wait(pthread_mutex_t *m_mutex)
     {
         int ret=0;
         //将解锁mutex参数指向的互斥锁，并使当前线程阻塞在cv参数指向的条件变量上。
         //被阻塞的线程可以被pthread_cond_signal函数，pthread_cond_broadcast函数唤醒，也可能在被信号中断后被唤醒。
+        //等待条件变量为真，成功返回0
         ret=pthread_cond_wait(&m_cond,m_mutex);
         return ret==0;
     }
@@ -101,6 +103,7 @@ public:
         int ret=0;
         //阻塞直到指定时间
         //函数到了一定的时间，即使条件未发生也会解除阻塞。这个时间由参数abstime指定。
+        //当在指定时间内有信号传过来时，pthread_cond_timedwait()返回0，否则返回一个非0数
         ret = pthread_cond_timedwait(&m_cond,m_mutex,&t);
         return ret==0;
     }

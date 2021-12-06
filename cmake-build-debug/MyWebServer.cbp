@@ -93,10 +93,19 @@
 		<Unit filename="/home/ubuntu/CLionProjects/MyWebServer/config.h">
 			<Option target="MyWebServer"/>
 		</Unit>
+		<Unit filename="/home/ubuntu/CLionProjects/MyWebServer/http/http_conn.cpp">
+			<Option target="MyWebServer"/>
+		</Unit>
 		<Unit filename="/home/ubuntu/CLionProjects/MyWebServer/http/http_conn.h">
 			<Option target="MyWebServer"/>
 		</Unit>
 		<Unit filename="/home/ubuntu/CLionProjects/MyWebServer/lock/locker.h">
+			<Option target="MyWebServer"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/CLionProjects/MyWebServer/log/block_queue.h">
+			<Option target="MyWebServer"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/CLionProjects/MyWebServer/log/log.cpp">
 			<Option target="MyWebServer"/>
 		</Unit>
 		<Unit filename="/home/ubuntu/CLionProjects/MyWebServer/log/log.h">
@@ -106,6 +115,12 @@
 			<Option target="MyWebServer"/>
 		</Unit>
 		<Unit filename="/home/ubuntu/CLionProjects/MyWebServer/threadpool/threadpool.h">
+			<Option target="MyWebServer"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/CLionProjects/MyWebServer/timer/lst_timer.cpp">
+			<Option target="MyWebServer"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/CLionProjects/MyWebServer/timer/lst_timer.h">
 			<Option target="MyWebServer"/>
 		</Unit>
 		<Unit filename="/home/ubuntu/CLionProjects/MyWebServer/webserver.cpp">
